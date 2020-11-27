@@ -15,9 +15,6 @@ if __name__ == '__main__':
         print("Заданный список пуст", file=sys.stderr)
         exit(1)
 
-    a_max = a[0]
-    position = 0
-
     #   Произведение элементов списка, расположенных между первым и вторым нулевыми элементами.
     lst = []
     for i, item in enumerate(a):
